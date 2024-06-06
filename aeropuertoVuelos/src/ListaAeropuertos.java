@@ -11,6 +11,7 @@ public class ListaAeropuertos {
     }
 
     public void mostrarAeropuertos( ) {
+        System.out.println("id |  codigo |  Nombre de Aeropuerto        |        pais       | Zona Horarica");
          for (Aeropuerto i:listaAeropuerto){
              i.imprimirInfo();
 
