@@ -19,7 +19,7 @@ public class Aeropuerto {
         }
 
         public void imprimirInfo(){
-            System.out.println(id+"   "+"codigo  "+this.codigo+"  nombre: "+this.nombre  +  "pais:   "+this.pais+"ZonarHorarica:  "+zonaHorarica);
+            System.out.println(id+"     "+this.codigo+"     "+this.nombre  +  "                      "+this.pais+"                 "+zonaHorarica);
 
         }
 
