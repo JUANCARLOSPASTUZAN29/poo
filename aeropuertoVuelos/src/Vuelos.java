@@ -18,7 +18,7 @@ public class Vuelos {
     }
     public void imprimirInfo(){
         System.out.println("Codigo Aeropuerto: "+this.codigoAeropuerto);
-        System.out.print("Origen: "+this.aeropuerto$Origen);
+        System.out.print("Origen: "+this.aeropuerto$Origen+"->");
         System.out.println("Destino: "+this.earopuerto$Destino);
         System.out.println("Duracion: "+this.duracionVuelo);
         System.out.println("Aerolinea: "+this.aerolinea);
